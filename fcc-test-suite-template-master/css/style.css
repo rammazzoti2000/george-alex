@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+#header {    
+    width: 100%;
+    height: auto; 
+    background-color: aliceblue;
+}
+#nav-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;   
+   
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.nav-link:hover {
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+#header-img {
+    width: 70px;
+}
+
+#form {
+    width: 50%;
+    border: 2px solid lightblue;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#email {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#submit {
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+    margin: 10px auto;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+#video{
+    display: block;
+    border: 1px solid #1D740C;
+    height: 390px;
+    width: 480px;
+    padding: 0px;
+    margin: 30px auto;   
+}
+
